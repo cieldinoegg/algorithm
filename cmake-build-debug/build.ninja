@@ -52,37 +52,37 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Main
+# Object build statements for EXECUTABLE target main
 
 
 #############################################
-# Order-only phony target for Main
+# Order-only phony target for main
 
-build cmake_object_order_depends_target_Main: phony || CMakeFiles/Main.dir
+build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
 
-build CMakeFiles/Main.dir/main.cpp.obj: CXX_COMPILER__Main_Debug C$:/me/컴퓨터/알고리즘/main.cpp || cmake_object_order_depends_target_Main
-  DEP_FILE = CMakeFiles\Main.dir\main.cpp.obj.d
+build CMakeFiles/main.dir/11689_오일러_피_함수.cpp.obj: CXX_COMPILER__main_Debug C$:/me/컴퓨터/알고리즘/11689$ 오일러$ 피$ 함수.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\11689_오일러_피_함수.cpp.obj.d
   FLAGS = -g   -Wall -std=c++14
-  OBJECT_DIR = CMakeFiles\Main.dir
-  OBJECT_FILE_DIR = CMakeFiles\Main.dir
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Main
+# Link build statements for EXECUTABLE target main
 
 
 #############################################
-# Link the executable Main.exe
+# Link the executable main.exe
 
-build Main.exe: CXX_EXECUTABLE_LINKER__Main_Debug CMakeFiles/Main.dir/main.cpp.obj
+build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/11689_오일러_피_함수.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Main.dir
+  OBJECT_DIR = CMakeFiles\main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Main.exe
-  TARGET_IMPLIB = libMain.dll.a
-  TARGET_PDB = Main.exe.dbg
+  TARGET_FILE = main.exe
+  TARGET_IMPLIB = libmain.dll.a
+  TARGET_PDB = main.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Main: phony Main.exe
+build main: phony main.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build Main: phony Main.exe
 #############################################
 # Folder: C:/me/컴퓨터/알고리즘/cmake-build-debug
 
-build all: phony Main.exe
+build all: phony main.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
