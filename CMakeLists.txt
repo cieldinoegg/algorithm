@@ -1,3 +1,3 @@
 cmake_minimum_required(VERSION 2.8)
 add_definitions("-Wall -std=c++14")
-add_executable(main "14699 관악산 등산.cpp")
+add_executable(main "23740 버스노선 개편하기.cpp")
