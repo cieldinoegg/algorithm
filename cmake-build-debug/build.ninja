@@ -60,8 +60,8 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
 
-build CMakeFiles/main.dir/23048_자연수_색칠하기.cpp.obj: CXX_COMPILER__main_Debug C$:/me/알고리즘/23048$ 자연수$ 색칠하기.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\23048_자연수_색칠하기.cpp.obj.d
+build CMakeFiles/main.dir/16172_나는_친구가_적다.cpp.obj: CXX_COMPILER__main_Debug C$:/me/알고리즘/16172$ 나는$ 친구가$ 적다.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\16172_나는_친구가_적다.cpp.obj.d
   FLAGS = -g   -Wall -std=c++14
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir
@@ -74,7 +74,7 @@ build CMakeFiles/main.dir/23048_자연수_색칠하기.cpp.obj: CXX_COMPILER__main_Debu
 #############################################
 # Link the executable main.exe
 
-build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/23048_자연수_색칠하기.cpp.obj
+build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/16172_나는_친구가_적다.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main.dir
