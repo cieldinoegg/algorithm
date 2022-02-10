@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/me/컴퓨터/알고리즘/cmake-build-debug/
+cmake_ninja_workdir = C$:/me/알고리즘/cmake-build-debug/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\me\컴퓨터\알고리즘\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\me\알고리즘\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -60,8 +60,8 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
 
-build CMakeFiles/main.dir/23740_버스노선_개편하기.cpp.obj: CXX_COMPILER__main_Debug C$:/me/컴퓨터/알고리즘/23740$ 버스노선$ 개편하기.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\23740_버스노선_개편하기.cpp.obj.d
+build CMakeFiles/main.dir/23048_자연수_색칠하기.cpp.obj: CXX_COMPILER__main_Debug C$:/me/알고리즘/23048$ 자연수$ 색칠하기.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\23048_자연수_색칠하기.cpp.obj.d
   FLAGS = -g   -Wall -std=c++14
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir
@@ -74,7 +74,7 @@ build CMakeFiles/main.dir/23740_버스노선_개편하기.cpp.obj: CXX_COMPILER__main_De
 #############################################
 # Link the executable main.exe
 
-build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/23740_버스노선_개편하기.cpp.obj
+build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/23048_자연수_색칠하기.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main.dir
@@ -89,7 +89,7 @@ build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/23740_버스
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\me\컴퓨터\알고리즘\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\me\컴퓨터\알고리즘 -BC:\me\컴퓨터\알고리즘\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\me\알고리즘\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\me\알고리즘 -BC:\me\알고리즘\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -107,7 +107,7 @@ build main: phony main.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/me/컴퓨터/알고리즘/cmake-build-debug
+# Folder: C:/me/알고리즘/cmake-build-debug
 
 build all: phony main.exe
 
